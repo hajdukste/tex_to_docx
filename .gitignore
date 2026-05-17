@@ -1,0 +1,28 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Generated conversion outputs.
+*.docx
+*.raw.docx
+
+# Keep the reusable Pandoc templates.
+!build/
+build/*
+!build/latex-like-reference.docx
+!build/pandoc-default-reference.docx
+
+# Common LaTeX/Pandoc build products.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.upa
+*.upb
