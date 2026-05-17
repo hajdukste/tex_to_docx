@@ -81,10 +81,3 @@ This was originally tuned for a scientific manuscript, so it is intentionally
 plain: letter paper, 1 inch margins, justified body text, centered figures, and
 LaTeX-like heading sizes. If your journal or thesis style differs, adjust
 `build/latex-like-reference.docx` or `tools/polish_pandoc_docx.py`.
-
-## Reddit blurb
-
-I made a small LaTeX-to-DOCX pipeline that uses Pandoc for the conversion, then
-post-processes the generated DOCX so it matches the native LaTeX PDF much more
-closely. It was the most robust option I found. You can ask Codex to adjust the
-reference DOCX or the post-processing script to match your own style.
